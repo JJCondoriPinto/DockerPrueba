@@ -10,4 +10,4 @@ services:
       - DB_USERNAME=cliy0a6y7001h9sqm59a12t0r
       - DB_DATABASE=cqBcfoOMNce2MI84G8EvApbk
     volumes:
-      - './:/app'
+      - './apis:/app'
