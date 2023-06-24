@@ -1,0 +1,13 @@
+version: '2'
+services:
+  myapp:
+    image: docker.io/bitnami/laravel:10
+    ports:
+      - '8000:8000'
+    environment:
+      - DB_HOST=161.132.39.117
+      - DB_PORT=27017
+      - DB_USERNAME=cliy0a6y7001h9sqm59a12t0r
+      - DB_DATABASE=cqBcfoOMNce2MI84G8EvApbk
+    volumes:
+      - './:/app'
